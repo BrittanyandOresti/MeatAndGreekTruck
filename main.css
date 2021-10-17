@@ -80,6 +80,26 @@ border-radius: 10px 2000px 2000px 10px;;
 opacity: .7;
 
 }
+
+.bestofpines{
+ width: 70vw;
+ height: 70vh;
+ overflow: hidden;
+ margin: 0 auto;
+}
+.bestofpines img{
+ width: 100%;
+ transition: .5s all ease-in-out;
+}
+.bestofpines:hover img{
+ transform: scale(2.5);
+}
+
+
+
+
+
+
 button{
  opacity: .7;
  width: 12vw;

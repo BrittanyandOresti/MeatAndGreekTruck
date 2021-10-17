@@ -60,7 +60,7 @@ body{
 .midrow{
  display: flex;
  justify-content: space-around;
- width: 100vw;
+ width: 90vw;
  height: 25vh;
  list-style: none;
 }

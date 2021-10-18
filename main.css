@@ -25,7 +25,8 @@
  font-size: 5em;
 }
 
-#logo{
+#logo
+{
 background-color: #41cbf2;
 height: 25vh;
 width: 35vw;
@@ -80,24 +81,26 @@ border-radius: 10px 2000px 2000px 10px;;
 opacity: .7;
 
 }
-
+#bop-first, #bop-second{
+ width: 75vw;
+ height:55vh;
+}
 .bestofpines{
- width: 70vw;
- height: 70vh;
- overflow: hidden;
- margin: 0 auto;
+ width: 75vw;
+ height: 55vh;
+position: relative;
+margin: 0 auto;
 }
-.bestofpines img{
- width: 100%;
- transition: .5s all ease-in-out;
+.bestofpines .img-top{
+ display: none;
+ position: absolute;
+ top: 0;
+ left: 0;
+ z-index: 99;
 }
-.bestofpines:hover img{
- transform: scale(2.5);
+.bestofpines:hover .img-top{
+display: inline;
 }
-
-
-
-
 
 
 button{

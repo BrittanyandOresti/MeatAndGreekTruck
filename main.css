@@ -1,3 +1,9 @@
+html{
+ background-image: url("img/Santorini.jpg");
+ min-height: 200vh;
+ background-size: cover;
+ background-repeat: no-repeat;
+}
 .hrefs{
  display: flex;
  justify-content: space-around;
@@ -25,8 +31,7 @@
  font-size: 5em;
 }
 
-#logo
-{
+#logo{
 background-color: #41cbf2;
 height: 25vh;
 width: 35vw;
@@ -34,6 +39,7 @@ border-radius: 10px 100px / 120px;;
 padding-left: 3%;
 padding-right: 3%;
 }
+
 .bar{
  display: flex;
  justify-content: space-around;
@@ -50,12 +56,6 @@ padding-right: 3%;
  font-size: 2.3em;
  font-weight: bolder;
  color: black;
-}
-body{
- background-image: url("img/Santorini.jpg");
- background-size: cover;
- background-repeat: no-repeat;
- background-attachment: scroll;
 }
 
 .midrow{
@@ -79,7 +79,6 @@ color: white;
 background-color: black;
 border-radius: 10px 2000px 2000px 10px;;
 opacity: .7;
-
 }
 #bop-first, #bop-second{
  width: 75vw;
@@ -102,7 +101,6 @@ margin: 0 auto;
 display: inline;
 }
 
-
 button{
  opacity: .7;
  width: 12vw;
@@ -112,4 +110,46 @@ button{
  background-color: black;
  border-radius: 18px 18px 30px;;
  cursor: pointer;
+}
+
+.buttomrow{
+ display: flex;
+ justify-content: space-around;
+ width: 90vw;
+ height: 25vh;
+ list-style: none;
+ padding-top: 13%;
+}
+#IBox, #BaclavaBites{
+ width: 25vw;
+ height: 30vh;
+}
+#GRules{
+ width: 35vw;
+ height: 45vh;
+}
+h3{
+ font-size: 1.5em;
+ font-weight: bold;
+ color: white;
+ background-color: black;
+ /* border-radius: 10px 2000px 2000px 10px;; */
+ opacity: .7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+
 }
